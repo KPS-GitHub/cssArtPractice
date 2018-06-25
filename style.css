@@ -1,0 +1,94 @@
+/* div that will contain the entire image */
+/* -this allows for a set-in-place div that the other divs can be positioned in relation to */
+.baseDiv {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+  
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.head{
+    position: absolute;
+    top:16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: rgb(255, 212, 155);
+    border-radius: 50% 50% 70% 70%;
+}
+
+.leftEye {
+    position: absolute;
+    top: 45%;
+    left: 19%;
+    width: 15%;
+    height: 15%;
+    background: white;
+    z-index: 1;
+    border-radius: 100% 100% 50% 50%;
+}
+
+.rightEye {
+    position: absolute;
+    top: 45%;
+    left: 69%;
+    width: 15%;
+    height: 15%;
+    background: white;
+    z-index: 1;
+    border-radius: 100% 100% 50% 50%;
+}
+
+.leftIris {
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 50%;
+    height: 50%;
+    background: brown;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.rightIris {
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 50%;
+    height: 50%;
+    background: brown;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+
+.leftPupil {
+    position: absolute;
+    top: 16%;
+    left: 16%;
+    width: 70%;
+    height: 70%;
+    background: black;
+    z-index: 3;
+    border-radius: 50%;
+}
+
+.rightPupil {
+    position: absolute;
+    top: 16%;
+    left: 16%;
+    width: 70%;
+    height: 70%;
+    background: black;
+    z-index: 3;
+    border-radius: 50%;
+}
